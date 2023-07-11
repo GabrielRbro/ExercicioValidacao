@@ -40,3 +40,14 @@ button {
 button:hover {
     background-color: #015d81;
 }
+
+p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#resultado{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}

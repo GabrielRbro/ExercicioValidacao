@@ -11,12 +11,16 @@
     <div class="container">
         <div class="header">
             <h2>Validação de Números</h2>
+            <p>O segundo numero deve ser maior que o primeiro</p>
         </div>
         <form id="form">
-            <input required type="number" placeholder="Primeiro Número" />
-            <input required type="number" placeholder="Segundo Número" />
+            <input required type="number" id="primeiroNumero" placeholder="Primeiro Número" />
+            <input required type="number" id="segundoNumero" placeholder="Segundo Número" />
             <button type="submit">Enviar</button>
         </form>
+        <p id="resultado"></p>
     </div>
+
+    <script src="./Main.js"></script>
 </body>
 </html>
